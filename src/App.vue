@@ -1,14 +1,19 @@
 <template>
   <div id="app">
-    111
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
-<style>
+<style lang="less">
+/* 
+ 以下两种都可以，任君选择
+ @import './styles/base.less'; */
+
+@import url("~@/styles/base.less");
 </style>
